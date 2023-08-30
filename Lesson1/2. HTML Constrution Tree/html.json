@@ -1,0 +1,32 @@
+{
+  "Custom HTML Template": {
+    "prefix": "myhtml",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"en\">",
+      "  <head>",
+      "    <meta charset=\"utf-8\" />",
+      "    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\" />",
+      "    <title>Title</title>",
+      "    <link rel=\"stylesheet\" type=\"text/css\" href=\"$1\" />",
+      "    <link rel=\"icon\" type=\"image/png\" href=\"$2\" />",
+      "    <meta name=\"description\" content=\"$3\" />",
+      "    <meta name=\"keywords\" content=\"$4\" />",
+      "    <meta name=\"referer\" content=\"always\" />",
+      "    <meta name=\"robots\" content=\"$5\" />",
+      "    <meta property=\"og:url\" content=\"$6\" />",
+      "    <meta property=\"og:title\" content=\"$7\" />",
+      "    <meta property=\"og:site_name\" content=\"$8\" />",
+      "    <meta property=\"og:type\" content=\"$9\" />",
+      "    <meta property=\"og:description\" content=\"$10\" />",
+      "    <meta property=\"og:image\" content=\"$11\" />",
+      "    <meta property=\"og:image:secure_url\" content=\"$12\" />",
+      "  </head>",
+      "  <body>",
+      "    $0",
+      "  </body>",
+      "</html>"
+    ],
+    "description": "My custom advanced HTML template"
+  }
+}
