@@ -1,0 +1,50 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "prettier.requireConfig": false,
+  "prettier.semi": false,
+  "editor.codeActionsOnSave": { "source.fixAll": true },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "eslint.alwaysShowStatus": true,
+  "html.format.enable": false,
+  "htmlhint.enable": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "rainbowTags.allowEverywhere": true,
+  "emmet.triggerExpansionOnTab": true,
+  "js/ts.implicitProjectConfig.checkJS": true,
+  "RainbowBrackets.depreciation-notice": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDelete": false,
+  "git.autofetch": true,
+  "workbench.colorTheme": "Community Material Theme High Contrast",
+  "cSpell.userWords": [
+    "ACCC",
+    "ACMA",
+    "coverflow",
+    "videographers",
+    "videography"
+  ],
+  "eslint.timeBudget.onValidation": {
+    "warn": 4000,
+    "error": 8000
+  }
+}
